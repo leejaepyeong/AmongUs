@@ -1,0 +1,1423 @@
+Using pre-set license
+Pro License: NO
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/idonghui/Desktop/unity/amogus
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49795
+Successfully changed project path to: /Users/idonghui/Desktop/unity/amogus
+/Users/idonghui/Desktop/unity/amogus
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 134.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.17f1 (03b40fe07a36)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/idonghui/Desktop/unity/amogus/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-09-21 18:38:42.767 Unity[40562:328015] Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+2021-09-21 18:38:42.767 Unity[40562:328015] Metal devices available: 2
+2021-09-21 18:38:42.767 Unity[40562:328015] 0: AMD Radeon Pro 5300M (high power)
+2021-09-21 18:38:42.767 Unity[40562:328015] 1: Intel(R) UHD Graphics 630 (low power)
+2021-09-21 18:38:42.767 Unity[40562:328015] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56562
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002767 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 124.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4895ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (602ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003420 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 129.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1729ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1477ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (534ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (627ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.17f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 355.3 MB.
+System memory in use after: 355.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 5611.
+Total: 4.811251 ms (FindLiveObjects: 0.389898 ms CreateObjectMapping: 0.312055 ms MarkObjects: 4.029134 ms  DeleteObjects: 0.079256 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Game Room.unity
+  artifactKey: Guid(a37c6026c69f4486c94f139902b6286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game Room.unity using Guid(a37c6026c69f4486c94f139902b6286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01140f77025ec5563eb07d4f6141836') in 0.015169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1292.196697 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRulrItem.cs
+  artifactKey: Guid(05c8726d2a7a24376b4f4900c9dd117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRulrItem.cs using Guid(05c8726d2a7a24376b4f4900c9dd117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c927354827dfc814af631b55c73d3d') in 3.007038 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007124 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.491 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1491ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1259ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (522ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5028 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 354.3 MB.
+System memory in use after: 354.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5616.
+Total: 4.504104 ms (FindLiveObjects: 0.394439 ms CreateObjectMapping: 0.292115 ms MarkObjects: 3.798607 ms  DeleteObjects: 0.018179 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.414375 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule
+  artifactKey: Guid(9d1b9d7c09c444d3487bd860630cda6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule using Guid(9d1b9d7c09c444d3487bd860630cda6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291b84781d9adb56c7f02e3ffe88799e') in 0.007432 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005456 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.444 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1486ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (1192ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5028 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 354.8 MB.
+System memory in use after: 355.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5620.
+Total: 4.403626 ms (FindLiveObjects: 0.370435 ms CreateObjectMapping: 0.282653 ms MarkObjects: 3.730439 ms  DeleteObjects: 0.019271 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.423789 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRulrItem.cs
+  artifactKey: Guid(05c8726d2a7a24376b4f4900c9dd117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRulrItem.cs using Guid(05c8726d2a7a24376b4f4900c9dd117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1f8a4fb1c681dd6a531029c1ef104c') in 0.009145 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003969 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1484ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1252ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (508ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5028 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 355.2 MB.
+System memory in use after: 355.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5624.
+Total: 4.488754 ms (FindLiveObjects: 0.397367 ms CreateObjectMapping: 0.315086 ms MarkObjects: 3.757352 ms  DeleteObjects: 0.018073 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1478ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1241ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5028 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 355.6 MB.
+System memory in use after: 356.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5628.
+Total: 4.604816 ms (FindLiveObjects: 0.367746 ms CreateObjectMapping: 0.259331 ms MarkObjects: 3.959737 ms  DeleteObjects: 0.017236 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1020.937485 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff665b99db455a6de86a4ea00168cb45') in 0.011040 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003779 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.544 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1544ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (1313ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (558ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 355.8 MB.
+System memory in use after: 356.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5633.
+Total: 4.452063 ms (FindLiveObjects: 0.356876 ms CreateObjectMapping: 0.279425 ms MarkObjects: 3.797559 ms  DeleteObjects: 0.017411 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.875613 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7284d59c9186de15615c90d0d8a5dcfa') in 0.009819 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003669 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.524 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1525ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1273ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (509ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 356.4 MB.
+System memory in use after: 356.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5637.
+Total: 6.668214 ms (FindLiveObjects: 0.509424 ms CreateObjectMapping: 0.405112 ms MarkObjects: 5.722784 ms  DeleteObjects: 0.029427 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 133.751479 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb5d1bc6abee7785d666c3a411408b5') in 0.008386 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003673 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.583 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1583ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (1346ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (542ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 356.8 MB.
+System memory in use after: 357.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5641.
+Total: 4.760150 ms (FindLiveObjects: 0.382573 ms CreateObjectMapping: 0.296266 ms MarkObjects: 4.060521 ms  DeleteObjects: 0.019756 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58.091156 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9864c62ff236ba1d8419ad9c01f887ba') in 0.010043 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003753 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.452 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1453ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1219ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (495ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 357.2 MB.
+System memory in use after: 357.7 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5645.
+Total: 5.451975 ms (FindLiveObjects: 0.396482 ms CreateObjectMapping: 0.291562 ms MarkObjects: 4.733245 ms  DeleteObjects: 0.029666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45.182904 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f325be356e233622ea8f9d40b059ec13') in 0.008941 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005446 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.590 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1590ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (1341ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (549ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 357.6 MB.
+System memory in use after: 358.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5649.
+Total: 5.154820 ms (FindLiveObjects: 0.409526 ms CreateObjectMapping: 0.319196 ms MarkObjects: 4.398085 ms  DeleteObjects: 0.026532 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.941949 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df020dae77309ef0dbcaccafe999d568') in 0.009463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.306867 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1486848bac503e5ae5fbfc65423c9b2') in 0.003666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.971922 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ea65276cfb002d0ef618f2e8d6f7a7') in 0.003917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 382.245149 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff9d0102743c19532e9dacaa3dd74df') in 0.004353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 611.930825 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c04d6099869242cbfc9515ac89f230') in 0.003709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 215.105539 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326a249fe2146c7722542dc6ccb9aabb') in 0.003754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.811565 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0574bd73e3ba634c1571cd21fbdd9546') in 0.004551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.876410 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cb7a51e7585256f6103e74229f1010') in 0.003787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 115.194161 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875c79b88a8877b637d143cf9da57a9e') in 0.003727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.945252 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a948b6f360ac56d340cdae6cf476c1') in 0.004049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.105983 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c7e4a352a0866fcea50841bfd21dd6') in 0.004118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.103041 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13479b7cfa3b0164953acce74bf9fcfe') in 0.003631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 163.989107 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6920997531449d2233be938ad81bac') in 0.003635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.074214 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7f08921b257c1f4da25434a30c06c7') in 0.004405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.116857 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003d0c83a5e3de74a624a39feb1e39c8') in 0.003928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.681666 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b1ae1ff91290f4284ca7f3ec1b6ccc') in 0.004720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.336176 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcabdaea9143a21932e87d8e6edeeb5e') in 0.003560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 218.420917 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589abd88b7c66d3aa5803117ecaa16ed') in 0.004430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.619420 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd90a59b44ed4824bb3c73c154f3361') in 0.003930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.567795 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51de40bade2400552774139a67a5558d') in 0.004322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.188067 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c83e5a994baf85a032e282ab472b19') in 0.003852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.934153 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e8696180d2c51e1b8ca98e6779de33') in 0.003482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.920103 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c2b25f5074b1c00e5428d0a6a86537') in 0.003659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.511319 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5603ebcd7e79bd04bb94e22fdcc3a8') in 0.003723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.766248 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95abd6899c87064d6fb381ba25f8065') in 0.003926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.333917 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43a6ed6b84c2e5c786f2bb4a33629a6') in 0.003689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.817145 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ba826a6c90b602fc3746d0bdba6296') in 0.004422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.887107 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42696827a70fefa80c0ff4ebadb74f6a') in 0.003700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.987881 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bb1ca32b8b1b0e9b8acaa4b3dd1ff3') in 0.004876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.506728 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b2e1c5d6dc3f420795c6711b4131b8') in 0.004824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.811677 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6f98afd49143ff061ffdb527fd5394') in 0.003996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.954413 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7017c10214f5e6d79923e98c5fd745') in 0.003703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.954904 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfc55ba7b42e62acad67961e13460d7') in 0.003484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.324436 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab7baee27f19bdd63a99e7cb6d936cc') in 0.004259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.856312 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecf725451949f96f37d3c3031d318a2') in 0.004190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.509246 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90287248674adab7c057487d8137c863') in 0.003746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.374290 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9432ad223d5cf7e7574fadd9a2afce95') in 0.003853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.726242 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee1f65c57c7920b27c260ff1cd8ceb5') in 0.004570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 184.961616 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5ce427b257f5c0bf0782b9287c6586') in 0.004222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.571578 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac882d4d5fc219c5683a244971380ef') in 0.004366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.595404 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194bbf2c2ab01a25bc8b2c00b1bc0539') in 0.003928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.881000 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006f0a5cd8c9efbca40c4fd4a7d6394b') in 0.004152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.005401 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd584d11d5bf8a0915f2b9b5aaa65b30') in 0.004722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.588248 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471cfcc9d1320d3312bcdb1e31a89e8b') in 0.004338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 171.645611 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21764c772f9cd4161b96fadb84191cf') in 0.003699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.717928 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs
+  artifactKey: Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleStore.cs using Guid(e5c71c02892464e4e840a3ed544087b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c960f3e8491d6bfe80ebbba4b665cb45') in 0.003846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 143.775635 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRulrItem.cs
+  artifactKey: Guid(05c8726d2a7a24376b4f4900c9dd117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRulrItem.cs using Guid(05c8726d2a7a24376b4f4900c9dd117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9de9a368aef6d2f1a7916fe99b68c8') in 0.004242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.495903 seconds.
+  path: Assets/Scripts/RoomSceneScript/GameRule/GameRuleItem.cs
+  artifactKey: Guid(05c8726d2a7a24376b4f4900c9dd117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomSceneScript/GameRule/GameRuleItem.cs using Guid(05c8726d2a7a24376b4f4900c9dd117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9fecc4071b502759f649a160b056a5') in 0.004502 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006671 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.466 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1466ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1251ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (509ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 357.8 MB.
+System memory in use after: 358.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5653.
+Total: 4.982492 ms (FindLiveObjects: 0.381783 ms CreateObjectMapping: 0.289830 ms MarkObjects: 4.287754 ms  DeleteObjects: 0.022058 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003786 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.679 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1679ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (1433ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (578ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (392ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 358.4 MB.
+System memory in use after: 358.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5657.
+Total: 4.761319 ms (FindLiveObjects: 0.383285 ms CreateObjectMapping: 0.303929 ms MarkObjects: 4.054449 ms  DeleteObjects: 0.018766 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003677 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.558 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1558ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (1329ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (498ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (18ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (355ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 358.8 MB.
+System memory in use after: 359.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5661.
+Total: 4.773838 ms (FindLiveObjects: 0.382519 ms CreateObjectMapping: 0.292229 ms MarkObjects: 4.080209 ms  DeleteObjects: 0.018032 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003713 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1620ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (1344ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (514ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 359.2 MB.
+System memory in use after: 359.7 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5665.
+Total: 4.705426 ms (FindLiveObjects: 0.409329 ms CreateObjectMapping: 0.324162 ms MarkObjects: 3.951917 ms  DeleteObjects: 0.019184 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005817 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.445 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1445ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (1223ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (504ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 359.6 MB.
+System memory in use after: 360.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5669.
+Total: 4.955144 ms (FindLiveObjects: 0.421032 ms CreateObjectMapping: 0.314207 ms MarkObjects: 4.198131 ms  DeleteObjects: 0.020785 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007809 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.412 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1412ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (1178ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 359.7 MB.
+System memory in use after: 360.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5673.
+Total: 4.609003 ms (FindLiveObjects: 0.363622 ms CreateObjectMapping: 0.302514 ms MarkObjects: 3.924240 ms  DeleteObjects: 0.017704 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 260.8 MB.
+System memory in use after: 261.2 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5673.
+Total: 3.851889 ms (FindLiveObjects: 0.341478 ms CreateObjectMapping: 0.254479 ms MarkObjects: 3.243624 ms  DeleteObjects: 0.011690 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004166 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/idonghui/Desktop/unity/amogus/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1484ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1252ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 360.6 MB.
+System memory in use after: 361.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5677.
+Total: 4.058061 ms (FindLiveObjects: 0.334565 ms CreateObjectMapping: 0.231711 ms MarkObjects: 3.474833 ms  DeleteObjects: 0.016204 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
