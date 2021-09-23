@@ -69,6 +69,7 @@ public class LobbyUIManager : MonoBehaviour
 
         // Change Scene to PlayScene
         var manager = NetworkManager.singleton as AmongUsRoomManager;
+        manager.gameRuleData = FindObjectOfType<GameRuleStore>().GetGameRuleData(); // get GameRule Data
         manager.ServerChangeScene(manager.GameplayScene);
     }
 }

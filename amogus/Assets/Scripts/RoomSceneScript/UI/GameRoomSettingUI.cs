@@ -6,7 +6,7 @@ public class GameRoomSettingUI : SettingsUI
 {
     public void Open()
     {
-        AmongUsRoomPlayer.MyRoomPlayer.lobbyPlayerCharacter.IsMoveable = false;
+        AmongUsRoomPlayer.MyRoomPlayer.myCharacter.IsMoveable = false;
         gameObject.SetActive(true);
     }
 
@@ -14,7 +14,7 @@ public class GameRoomSettingUI : SettingsUI
     {
 
         base.Close();
-        AmongUsRoomPlayer.MyRoomPlayer.lobbyPlayerCharacter.IsMoveable = true;
+        AmongUsRoomPlayer.MyRoomPlayer.myCharacter.IsMoveable = true;
 
         
     }

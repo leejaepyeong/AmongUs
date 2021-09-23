@@ -44,7 +44,7 @@ public class CharacterMover : NetworkBehaviour
     [SyncVar(hook = nameof(SetNickName_Hook))]
     public string nickName;
     [SerializeField]
-    private Text nicknameTxt;
+    protected Text nicknameTxt;
 
     public void SetNickName_Hook(string _, string value)
     {

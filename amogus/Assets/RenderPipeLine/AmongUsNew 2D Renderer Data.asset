@@ -19,10 +19,10 @@ MonoBehaviour:
   m_HDREmulationScale: 1
   m_LightRenderTextureScale: 0.5
   m_LightBlendStyles:
-  - name: Multiply
+  - name: Defalut
     maskTextureChannel: 0
     blendMode: 1
-  - name: Additive
+  - name: Light Map
     maskTextureChannel: 0
     blendMode: 0
   - name: Multiply with Mask
