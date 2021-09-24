@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 using Mirror;
 
 public class GameSystem : NetworkBehaviour
@@ -19,6 +20,23 @@ public class GameSystem : NetworkBehaviour
     {
         return players;
     }
+
+    [SyncVar]
+    public float killCooldown; // Kill Cooltime
+
+    [SyncVar]
+    public int killRange;
+
+
+    [SerializeField]
+    private Light2D shadowLight;
+
+    [SerializeField]
+    private Light2D lightMapLight;
+
+    [SerializeField]
+    private Light2D globalLight;
+
 
     private void Awake()
     {
@@ -51,6 +69,9 @@ public class GameSystem : NetworkBehaviour
     private IEnumerator GameReady()
     {
         var manager = NetworkManager.singleton as AmongUsRoomManager;
+        killCooldown = manager.gameRuleData.killCoolDown; // rule에서 설정한 쿨타임
+        killRange = (int)manager.gameRuleData.killRange;
+
         while(manager.roomSlots.Count != players.Count)
         {
             yield return null;
@@ -80,6 +101,11 @@ public class GameSystem : NetworkBehaviour
         yield return new WaitForSeconds(1f);
 
         RpcStartGame();
+
+        foreach(var player in players)
+        {
+            player.SetKillCooldown();
+        }
 
     }
 
@@ -112,5 +138,35 @@ public class GameSystem : NetworkBehaviour
 
         // shh, crew imposter 창 닫기
         IngameUIManager.Instance.IngameIntroUI.Close();
+    }
+
+
+
+    public void ChangeLightMode(EPlayerType type)
+    {
+        if(type == EPlayerType.Ghost)
+        {
+            lightMapLight.lightType = Light2D.LightType.Global;
+            shadowLight.intensity = 0f;
+            globalLight.intensity = 1f;
+        }
+        else
+        {
+            lightMapLight.lightType = Light2D.LightType.Point;
+            shadowLight.intensity = 0.5f;
+            globalLight.intensity = 0.5f;
+        }
+    }
+
+    // Start Report Meet
+    public void StartReportMeeing(EPlayerColor deadbodyColor)
+    {
+        RpcSendReportSign(deadbodyColor);
+    }
+
+    [ClientRpc]
+    private void RpcSendReportSign(EPlayerColor deadbodyColor)
+    {
+        IngameUIManager.Instance.ReportUI.Open(deadbodyColor);
     }
 }

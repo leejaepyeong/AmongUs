@@ -33,7 +33,7 @@ public class CharacterMover : NetworkBehaviour
     [SerializeField]
     private float cameraSize = 2.5f;
 
-    private SpriteRenderer spriteRenderer;
+    protected SpriteRenderer spriteRenderer;
 
     // SyncBar로 동기화 된 변수가 서버에서 변경 시 hook로 등록 된 함수가 클라이언트에서 호출
     // if change playercolor  SetPlayerColor_Hook  return
@@ -52,7 +52,7 @@ public class CharacterMover : NetworkBehaviour
     }
 
 
-    private Animator anim;
+    protected Animator anim;
 
     // Start is called before the first frame update
     public virtual void Start()

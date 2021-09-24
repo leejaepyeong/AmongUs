@@ -3797,6 +3797,7 @@ MonoBehaviour:
   playerSpawnMethod: 0
   spawnPrefabs:
   - {fileID: 2918755062820413000, guid: a8e9a342b6a194c4b85c6983f68b457b, type: 3}
+  - {fileID: 8658836307717629070, guid: 95bd93225edf8454faeaa3eace844b2a, type: 3}
   showRoomGUI: 0
   minPlayers: 1
   roomPlayerPrefab: {fileID: 8981266714252023668, guid: 11813396ff8564a86a3dbd9a08a4aa65, type: 3}
