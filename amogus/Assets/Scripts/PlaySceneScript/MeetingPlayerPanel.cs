@@ -17,8 +17,40 @@ public class MeetingPlayerPanel : MonoBehaviour
     [SerializeField]
     private GameObject reportSign;
 
+    [SerializeField]
+    private GameObject voteBtns;
+
+    [SerializeField]
+    private GameObject voteSign; // is Vote
+
+    [SerializeField]
+    private GameObject voterPrefab; // who vote
+
+    [SerializeField]
+    private Transform voterParentTransform;
+
+    [HideInInspector]
     public InGameCharacterMover targetPlayer;
 
+
+    public void UpdatePanel(EPlayerColor voterColor)
+    {
+        var voter = Instantiate(voterPrefab, voterParentTransform).GetComponent<Image>();
+
+        voter.material = Instantiate(voter.material);
+        voter.material.SetColor("_PlayerColor", PlayerColor.GetColor(voterColor));
+        
+    }
+
+    public void OpenResult()
+    {
+        voterParentTransform.gameObject.SetActive(true);
+    }
+
+    public void UpdateVoteSign(bool isVoted)
+    {
+        voteSign.SetActive(isVoted);
+    }
 
     public void SetPlayer(InGameCharacterMover target)
     {
@@ -35,9 +67,40 @@ public class MeetingPlayerPanel : MonoBehaviour
             nicknameTxt.color = Color.red;
         }
 
-        deadPlayerBlock.SetActive((targetPlayer.playerType & EPlayerType.Ghost) == EPlayerType.Ghost);
+        bool isDead = (targetPlayer.playerType & EPlayerType.Ghost) == EPlayerType.Ghost;
+
+        deadPlayerBlock.SetActive(isDead);
+        GetComponent<Button>().interactable = !isDead;
 
         reportSign.SetActive(targetPlayer.isReporter);
 
     }
+
+    public void OnClickPlayerPanel()
+    {
+        var myCharacter = AmongUsRoomPlayer.MyRoomPlayer.myCharacter as InGameCharacterMover;
+
+        if (myCharacter.isVote) return;
+
+        if((myCharacter.playerType & EPlayerType.Ghost) != EPlayerType.Ghost)
+        {
+            IngameUIManager.Instance.MeetingUI.SelectPlayerPanel();
+            voteBtns.SetActive(true);
+        }    
+    }
+
+  
+
+    public void Select()
+    {
+        var myCharacter = AmongUsRoomPlayer.MyRoomPlayer.myCharacter as InGameCharacterMover;
+        myCharacter.CmdVoteEjectPlayer(targetPlayer.playerColor);
+        Unselect();
+    }
+
+    public void Unselect()
+    {
+        voteBtns.SetActive(false);
+    }
+
 }

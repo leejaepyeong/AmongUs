@@ -27,6 +27,11 @@ public class GameSystem : NetworkBehaviour
     [SyncVar]
     public int killRange;
 
+    [SyncVar]
+    public int skipVotPlayerCount;
+
+    [SyncVar]
+    public float remainTime;  // vote Time  Remain
 
     [SerializeField]
     private Light2D shadowLight;
@@ -162,11 +167,108 @@ public class GameSystem : NetworkBehaviour
     public void StartReportMeeing(EPlayerColor deadbodyColor)
     {
         RpcSendReportSign(deadbodyColor);
+        StartCoroutine(MeetingProcess_Coroutine());
     }
+
+    private IEnumerator MeetingProcess_Coroutine()
+    {
+        var players = FindObjectsOfType<InGameCharacterMover>();
+        foreach(var player in players)
+        {
+            player.isVote = true;
+        }
+
+        var manager = NetworkManager.singleton as AmongUsRoomManager;
+        remainTime = manager.gameRuleData.meetingsTime;
+
+
+        skipVotPlayerCount = 0;
+        foreach(var player in players)
+        {
+            if((player.playerType & EPlayerType.Ghost) != EPlayerType.Ghost)
+            {
+                player.isVote = false;
+
+            }
+            player.vote = 0;
+        }
+
+        while(true)
+        {
+            remainTime -= Time.deltaTime;
+            yield return null;
+            if(remainTime <= 0f)
+            {
+                break;
+            }    
+        }
+
+        RpcStartVoteTime();
+        remainTime = manager.gameRuleData.voteTime;
+        while(true)
+        {
+            remainTime -= Time.deltaTime;
+            yield return null;
+
+            if(remainTime <= 0f)
+            {
+                break;
+            }
+        }
+
+        foreach(var player in players)
+        {
+            if(!player.isVote && (player.playerType & EPlayerType.Ghost) != EPlayerType.Ghost)
+            {
+                player.isVote = true;
+                skipVotPlayerCount += 1;
+                RpcSignSkipVote(player.playerColor);
+            }
+
+        }
+
+        RpcEndVoteTime();
+    }
+
+    [ClientRpc]
+    public void RpcStartVoteTime()
+    {
+        IngameUIManager.Instance.MeetingUI.ChangeMeetingState(EMeetingState.Vote);
+    }
+
+    [ClientRpc]
+    public void RpcEndVoteTime()
+    {
+        IngameUIManager.Instance.MeetingUI.CompleteVote();
+    }
+
 
     [ClientRpc]
     private void RpcSendReportSign(EPlayerColor deadbodyColor)
     {
         IngameUIManager.Instance.ReportUI.Open(deadbodyColor);
+        StartCoroutine(StartMeeting_Corountine());
+    }
+
+
+    private IEnumerator StartMeeting_Corountine()
+    {
+        yield return new WaitForSeconds(3f);
+        IngameUIManager.Instance.ReportUI.Close();
+        IngameUIManager.Instance.MeetingUI.Open();
+        IngameUIManager.Instance.MeetingUI.ChangeMeetingState(EMeetingState.Meeting);
+
+    }
+
+    [ClientRpc]
+    public void RpcSignVoteEject(EPlayerColor voterColor, EPlayerColor ejectColor)
+    {
+        IngameUIManager.Instance.MeetingUI.UpdateVote(voterColor, ejectColor);
+    }
+
+    [ClientRpc]
+    public void RpcSignSkipVote(EPlayerColor skipVotePlayerColor)
+    {
+        IngameUIManager.Instance.MeetingUI.UpdateSkipVotePlayer(skipVotePlayerColor);
     }
 }

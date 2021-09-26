@@ -47,6 +47,12 @@ public class InGameCharacterMover : CharacterMover
     [SyncVar]
     public bool isReporter = false;
 
+
+    [SyncVar]
+    public bool isVote; // player is Vote?
+    public int vote; // get vote count
+                     // 
+
     // player position 동기화
     [ClientRpc]
     public void RpcTeleport(Vector3 position)
@@ -208,6 +214,34 @@ public class InGameCharacterMover : CharacterMover
             spriteRenderer.material.SetColor("_PlayerColor", color);
             nicknameTxt.text = "";
         }
+    }
+
+    [Command]
+    public void CmdVoteEjectPlayer(EPlayerColor ejectColor)
+    {
+        isVote = true;
+        GameSystem.Instace.RpcSignVoteEject(playerColor, ejectColor);
+
+        var players = FindObjectsOfType<InGameCharacterMover>();
+        InGameCharacterMover ejectedPlayer = null;
+
+        for (int i = 0; i < players.Length; i++)
+        {
+            if(players[i].playerColor == ejectColor)
+            {
+                ejectedPlayer = players[i];
+            }
+        }
+
+        ejectedPlayer.vote++;
+    }
+
+    [Command]
+    public void CmdSkipVote()
+    {
+        isVote = true;
+        GameSystem.Instace.skipVotPlayerCount++;
+        GameSystem.Instace.RpcSignSkipVote(playerColor);
     }
 
 }
